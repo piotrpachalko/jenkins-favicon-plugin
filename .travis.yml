@@ -3,6 +3,7 @@ deploy:
   provider: releases
   api_key:
     secure: hDmlL+t2dYbBDKjUK6b3TRSyCgbXTNK1rfesDZkExgU0tzBe74DUiaFY65pIjUCWNLLn7YTTEB8wG7wE+r5rS4xzF20xBhXIHQm62f3L1cZ0qStHHEG2wOrTGf1Mq2mHNyqM+sW9BnJbE77fromaqzQmBK/CM/CZjnn/V+7GNPZDzuNOdC559gf8r7vO9PSeRQzKiQZr/Oc4R3jGNlCLm/HG0WQlMGG1W6gJXxXlY2v+/5aCsMUgpI/Q8nlsfBdfl8thhQ78w/g4SnpEL86OiFXCVLY+HEHLUVo7XfiKSQ4c9xFmZrx5P715vYVjG6hpMe3Nw7GMP6wuchDe3IEb7uJuEjC7UDA0Fw+Gz3/YZhBQ5jIRknzXZDMpXI+6XWEF7z5q+ZgQe0fxwnZnWDThE+rrLbIgQUWYh3BCxcr1oc8dxTjQ+EmR00tHkBY6y2oDAtinq+zt6BDzHbexxx0oYzv2afrnL+KKKMIp/4bgXYOMTUWc1xIksMOicgyHPZODczuxjjH9Me4zu3LzOhqn8Y9R9U9Eyx5A/Y1hFmMN5VGkTQoOMNiUumFbm4zivAvuLP4lULM/cR/lnU48avsHleTMKGdZsZBbAcwZDdYz5ifKj0SUyUNVPncmB3+vL6VTtPS1M0rMQ+TAxuTx7Rbs9o9ihtPWxJ38yblG0E6yxWE=
-  file: target
+  file: /home/travis/build/piotrpachalko/jenkins-favicon-plugin/target/favicon.hpi
+  skip_cleanup: true
   on:
     repo: piotrpachalko/jenkins-favicon-plugin
